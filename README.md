@@ -59,7 +59,7 @@ PFO3/
 ├── global.css               # Estilos globales para el proyecto
 ├── index.html               # Página principal con los ejercicios
 ├── main.js                  # Archivo con las funciones JavaScript
-├── Practica Formativa Obligatoria 3.pdf  # Documento proporcionad por la cátedra
+├── Practica Formativa Obligatoria 3.pdf  # Documento proporcionado por la cátedra
 ├── style.css                # Estilos personalizados
 └── screencapture.png        # Captura de pantalla del proyecto
 ```
