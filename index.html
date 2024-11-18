@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📌 PFO 3 - VOTA CINTHIA</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="box-content long">
+        <div>
+            <a href="#" class="list-name">INICIO</a>
+        </div>
+        <ul>
+            <li>
+                <a href="#" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> Repo GitHub</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="personal">
+        <div>
+            <h1 class="h-tex">
+                CINTHIA ROMINA
+            </h1>
+        </div>
+        <div class="long">
+            <h2>
+                Practica Formativa Obligatoria N° 3
+            </h2>
+        </div>
+    </section>
+    <!-- EXERCISES -->
+     <div class="cards">
+         <section class="box-content card card">
+             <div class="exercise">
+                 <h4>
+                     Ejercicio N° 1: Calcular el área de un rectángulo
+                 </h4>
+                 <p>
+                     Escribe una función que reciba la longitud y el ancho de un rectángulo y devuelva su área.
+                     La funcion no debe devolver un console.log() sino retornar un valor, llamaremos a la funcion dentro de
+                     un console.log( ).
+                     La idea de esto es comprender que algunas funciones retornan un valor y otras simplemente hacen otras
+                     cosas, como imprimir un mensaje por consola. Las que retornan algo, deberán incluir la palabra clave
+                     return .
+                 </p>
+                 <p class="code">
+                     console.log(calcularAreaRectangulo(5, 3)); // 15<br>
+                     console.log(calcularAreaRectangulo(3, 3)); // 'Los valores de ancho y largo deben ser diferentes para
+                     ser un rectángulo.'<br>
+                     console.log(calcularAreaRectangulo(9, 3)); // 27
+                 </p>
+                 <button class="play p-p1" onclick="runOne()"><i class="fa-solid fa-play"> Correr prueba </i></button>
+                 <div class="print p1"></div>
+             </div>
+         </section>
+         <section class="box-content card">
+             <div class="exercise">
+                 <h4>
+                     Ejercicio N° 2: Contar palabras en una cadena
+                 </h4>
+                 <p>
+                     Escribe una función que reciba una cadena de texto (string) y devuelva la cantidad de palabras en la
+                     cadena.
+                 </p>
+                 <p class="code">
+                     console.log(contarPalabras("Humahuaca es un lugar copado")); // Resultado: 5<br>
+                     console.log(contarPalabras("Los bizcochitos Don Satur son los más ricos")); // Resultado: 8<br>
+                     console.log(contarPalabras("Por cada taza de arroz son dos de agua")); // Resultado: 9
+                 </p>
+                 <button class="play p-p2" onclick="runTwo()"><i class="fa-solid fa-play"> Correr prueba </i></button>
+                 <div class="print p2"></div>
+             </div>
+         </section>
+         <section class="box-content card">
+             <div class="exercise">
+                 <h4>
+                     Ejercicio N° 3: Invertir una cadena
+                 </h4>
+                 <p>
+                     Escribe una función que tome una cadena como parámetro y devuelva la cadena invertida.
+     
+                 </p>
+                 <p class="code">
+                     console.log(invertirCadena("hola")); // Resultado: "aloh"<br>
+                     console.log(invertirCadena("taza")); // Resultado: "azat"<br>
+                     console.log(invertirCadena("papitas")); // Resultado: "satipap"
+                 </p>
+                 <button class="play p-p3" onclick="runThree()"><i class="fa-solid fa-play"> Correr prueba </i></button>
+                 <div class="print p3"></div>
+             </div>
+         </section>
+         <section class="box-content card">
+             <div class="exercise">
+                 <h4>
+                     Ejercicio N° 4: Encontrar el palíndromo
+                 </h4>
+                 <p>
+                     Escribe una función que reciba un string y devuelva true o false si el string es un palíndromo.
+     
+                 </p>
+                 <p class="code">
+                     console.log(esPalindromo("neuquen")); // true<br>
+                     console.log(esPalindromo("perro")); // false<br>
+                     console.log(esPalindromo("rallar")); // true
+                 </p>
+                 <button class="play p-p4" onclick="runFour()"><i class="fa-solid fa-play"> Correr prueba </i></button>
+                 <div class="print p4"></div>
+             </div>
+         </section>
+         <section class="box-content card">
+             <div class="exercise">
+                 <h4>
+                     Ejercicio N° 5: Crear un programa para convertir la edad de un perro a años humanos
+                 </h4>
+                 <p>
+                     Escribe una función que tome un valor de un usuario, utilizando una ventana emergente prompt y calcule la edad
+                     canina, que equivale a 7 veces la edad humana.
+                     Esta funcion no debe devolver un valor sino mostrar por consola un mensaje como el del ejemplo.
+                 </p>
+                 <p class="code">
+                     edadCanina(7); // Tu perro tiene 49 años humanos
+                 </p>
+                 <button class="play p-p5" onclick="runFive()"><i class="fa-solid fa-play"> Correr prueba </i></button>
+                 <div class="print p5"></div>
+             </div>
+         </section>
+     </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="final-bye">
+            <p> 2024 - CINTHIA ROMINA </p>
+        </div>
+    </footer>
+
+    <!-- JS MAIN -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
